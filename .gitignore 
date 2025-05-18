@@ -1,0 +1,31 @@
+# Terraform & Terragrunt state files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform/
+
+# Terragrunt cache and lock files
+.terragrunt-cache/
+.terragrunt-version
+.terraform.lock.hcl
+
+# Sensitive data
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars
+*.tfvars.json
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
